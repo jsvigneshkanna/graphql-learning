@@ -17,11 +17,11 @@ const schema = buildSchema(`
         Plane
     }
 
-    type query {
+    type Query {
         getvehicles(id: ID): gtaVehicles
     }
 
-    type gtaVehiclesInput {
+    input gtaVehiclesInput {
         id: ID
         name: String!
         seats: Int
@@ -29,8 +29,8 @@ const schema = buildSchema(`
         type: vehicleType!
     }
 
-    type mutation {
-        setvehicle(input: Input): gtaVehicles
+    type Mutation {
+        setvehicle(input: gtaVehiclesInput): gtaVehicles
     }
 `);
 
