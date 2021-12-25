@@ -1,0 +1,34 @@
+{
+  "name": "graphql-learning",
+  "version": "1.0.0",
+  "description": "learning graphql api development",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsvigneshkanna/graphql-learning.git"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs",
+    "mogodb"
+  ],
+  "author": "jsvigneshkanna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsvigneshkanna/graphql-learning/issues"
+  },
+  "homepage": "https://github.com/jsvigneshkanna/graphql-learning#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.2.0",
+    "nanoid": "^3.1.30"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
